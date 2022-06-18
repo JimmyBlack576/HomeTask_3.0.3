@@ -22,9 +22,6 @@ int main()
             continue;
 
         }
-
-
-
         while (usernum > 0) {
             digit = usernum % 10;
             sum += digit;
@@ -47,7 +44,6 @@ int main()
         case 3:
             cout << "Количество нулей в заданном числе = " << count0 << endl<<endl;
             break;
-        
         }
 
     } while (choice != 4);
